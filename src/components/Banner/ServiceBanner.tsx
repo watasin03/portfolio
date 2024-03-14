@@ -13,7 +13,7 @@ const ServiceBanner = (props: ServiceBannerProps) => {
   return (
     <div className='w-full flex flex-col justify-start items-center p-8'>
       <p className='text-xl font-semibold text-gray-600 md:text-5xl'>
-        Ours Services
+        Portfolio
       </p>
       <div className='flex flex-col gap-10 w-full p-6'>
         {services?.map((e, i) => (
